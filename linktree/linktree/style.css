@@ -1,0 +1,86 @@
+
+body {
+
+    background-color: pink;
+
+}
+
+div{
+
+    display: table;
+    margin: 0 auto;
+
+}
+
+
+img{
+
+    margin-left : 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px; 
+
+}
+
+.column {
+
+    float: left;
+    padding :5px
+
+}
+
+.row ::after {
+    
+    content: "";
+    clear:both;
+    display: table;
+
+}
+
+button {
+
+    width: 75% ;
+    text-align: center;
+    background-color: plum;
+    border-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+
+}
+
+
+h1 {
+
+    color: mediumpurple;
+    text-align: center;
+    font-size: 30 px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: white;
+    
+}
+
+h2 { 
+
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+}
+
+h3 {
+    
+    color: mediumpurple;
+    text-align: center;
+    font-size: 20 px;
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
